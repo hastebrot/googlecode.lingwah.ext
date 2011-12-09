@@ -4,26 +4,14 @@ import com.googlecode.lingwah.ParseContext
 import com.googlecode.lingwah.ParseResults
 import com.googlecode.lingwah.Parser
 
-class ItemParser extends Parser {
+class ItemParser extends NullParser {
     
-    private Parser parser
-
     public ItemParser(Parser parser) {
-        this.parser = parser
+        super(parser)
     }
     
     String getDefaultLabel() {
-        return "Item(" + parser.getLabel() + ")"
-    }
-
-    void startMatching(ParseContext ctx, int start, ParseResults parseResults) {
-    }
-
-    void completeMatching(ParseContext ctx, int start, ParseResults parseResults) {
-    }
-
-    public List<Parser> getDependencies() {
-        return null
+        return "Item(" + this.parser.getLabel() + ")"
     }
     
 }
