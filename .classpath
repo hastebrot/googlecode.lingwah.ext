@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main"/>
+	<classpathentry kind="src" path="src/test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
+	<classpathentry kind="lib" path="lib/lingwah-0.9.1.jar" sourcepath="lib/lingwah-source-0.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.8.2.jar" sourcepath="lib/junit-4.8.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spock-core-0.5-groovy-1.7.jar" sourcepath="lib/spock-core-0.5-groovy-1.7-sources.jar"/>
+	<classpathentry kind="output" path="target"/>
+</classpath>
