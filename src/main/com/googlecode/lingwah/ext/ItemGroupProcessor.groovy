@@ -1,9 +1,9 @@
-package com.googlecode.lingwah.groovy
+package com.googlecode.lingwah.ext
 
 import com.googlecode.lingwah.AbstractProcessor
 import com.googlecode.lingwah.Match
-import com.googlecode.lingwah.groovy.parser.GroupParser
-import com.googlecode.lingwah.groovy.parser.ItemParser
+import com.googlecode.lingwah.ext.parser.GroupParser
+import com.googlecode.lingwah.ext.parser.ItemParser
 
 class ItemGroupProcessor extends AbstractProcessor {
     

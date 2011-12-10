@@ -1,4 +1,4 @@
-package com.googlecode.lingwah.groovy.parser
+package com.googlecode.lingwah.ext.parser
 
 import com.googlecode.lingwah.Match
 import com.googlecode.lingwah.ParseContext

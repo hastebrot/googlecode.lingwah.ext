@@ -1,9 +1,9 @@
-package com.googlecode.lingwah.groovy.grammars
+package com.googlecode.lingwah.ext.grammars
 
 import com.googlecode.lingwah.Grammar
 import com.googlecode.lingwah.Parser
-import com.googlecode.lingwah.groovy.parser.GroupParser
-import com.googlecode.lingwah.groovy.parser.ItemParser
+import com.googlecode.lingwah.ext.parser.GroupParser
+import com.googlecode.lingwah.ext.parser.ItemParser
 
 class ItemGroupGrammar extends Grammar {
     

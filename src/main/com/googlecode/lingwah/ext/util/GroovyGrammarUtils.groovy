@@ -1,4 +1,4 @@
-package com.googlecode.lingwah.groovy.util
+package com.googlecode.lingwah.ext.util
 
 import java.lang.reflect.Field
 

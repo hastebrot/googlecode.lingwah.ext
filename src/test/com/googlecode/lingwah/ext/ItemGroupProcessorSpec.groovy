@@ -1,8 +1,9 @@
-package com.googlecode.lingwah.groovy
+package com.googlecode.lingwah.ext
 
-import com.googlecode.lingwah.Parser;
-import com.googlecode.lingwah.groovy.grammars.ItemGroupGrammar;
-import com.googlecode.lingwah.groovy.util.GroovyGrammarUtils;
+import com.googlecode.lingwah.Parser
+import com.googlecode.lingwah.ext.ItemGroupProcessor
+import com.googlecode.lingwah.ext.grammars.ItemGroupGrammar
+import com.googlecode.lingwah.ext.util.GroovyGrammarUtils
 
 import spock.lang.Specification;
 
@@ -67,6 +68,9 @@ class ItemGroupProcessorSpec extends Specification {
     
     Object parseAndProcess(Parser parser, String input) {
         def results = GroovyGrammarUtils.parse(parser, input)
+        if (results == null) {
+            return null
+        }
         def result = processor.getResult(results.getLongestMatch())
         return result
     }

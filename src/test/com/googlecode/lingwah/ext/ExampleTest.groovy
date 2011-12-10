@@ -1,7 +1,8 @@
-package com.googlecode.lingwah.groovy
+package com.googlecode.lingwah.ext
 
-import com.googlecode.lingwah.groovy.grammars.ItemGroupGrammar
-import com.googlecode.lingwah.groovy.util.GroovyGrammarUtils
+import com.googlecode.lingwah.ext.ItemGroupProcessor
+import com.googlecode.lingwah.ext.grammars.ItemGroupGrammar
+import com.googlecode.lingwah.ext.util.GroovyGrammarUtils
 
 class ExampleGrammar extends ItemGroupGrammar {
     def hash = Group(Group(Item(str("#"))))

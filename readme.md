@@ -1,4 +1,4 @@
-# Lingwah-Groovy
+# Lingwah-Ext
 
 Additional classes for http://code.google.com/p/lingwah/.
 

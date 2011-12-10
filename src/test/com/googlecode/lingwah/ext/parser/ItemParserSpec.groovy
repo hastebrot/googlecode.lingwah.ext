@@ -1,7 +1,9 @@
-package com.googlecode.lingwah.groovy.parser
+package com.googlecode.lingwah.ext.parser
 
 import spock.lang.Specification
+
 import com.googlecode.lingwah.parser.StringParser
+import com.googlecode.lingwah.ext.parser.ItemParser
 
 class ItemParserSpec extends Specification {
 
