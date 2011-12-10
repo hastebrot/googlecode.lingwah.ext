@@ -27,7 +27,7 @@ class ItemGroupProcessorSpec extends Specification {
         def test3b = Group(rep(a))
         def test4 = Group(rep(Item(a)))
         def test5 = Group(rep(Group(Item(a))))
-        def test6 = Group(seq(Item(a), Group(rep(b))))
+        def test6 = Group(seq(Item(a), Group(rep(Item(b)))))
     }
     
     def "test1"() {
